@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup/signin</title>
+    <link rel="stylesheet" href="static/signup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="signup.js"></script>
+</head>
+<body>
+    <div class="search-section flex flex-row relative">
+        <div class="search-img">    
+        </div>
+        <div class="search-right-section flex flex-col">
+
+            <div class="back-btn">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3.7" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                      </svg>
+                </a>
+
+                  <p>Back to Homepage</p>
+            </div>
+
+            <div class="right-header-text flex flex-col">
+                <h2>Signup to Nurui</h2>
+                <p>Thoughts, Stories and Ideas</p>
+            </div>
+            <div class="search-content">
+                <form action="" class="search-form flex flex-wrap">
+                <input type="text" placeholder="Your name">
+                </form>
+
+                <form action="" class="search-form flex flex-wrap">
+                    <input type="text" placeholder="Your email address">
+                    </form>
+            </div>
+
+            <div class="btn-wrapper">
+                <button class="continue-btn">Continue</button>
+            </div>
+
+
+            <div class="sign-in">
+                <p id="sign-in-text">Already have an account? <a href="">Sign in</a></p>
+
+
+                <div class="error-msg hidden">
+                    <p>THERE WAS AN ERROR SENDING THE EMAIL, PLEASE TRY AGAIN</p>
+                </div>
+            </div>
+
+            <div class="search-footer">
+                <a href="">Nurui.</a>
+                <span>Thoughts, stories and ideas</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

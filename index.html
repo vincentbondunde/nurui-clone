@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurui</title>
+    <link rel="stylesheet" href="static/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="static/css/apps.js"></script>
+</head>
+<body>
+    <div class="header-wrapper">
+        <header class="inner-header-wrapper flex">
+            <div class="header-logo">
+                <img src="https://nurui.fueko.net/content/images/2018/12/nurui.svg" alt="">
+            </div>
+            <div class="header-nav">
+
+                <div class="nav-hamburger-container">
+                    <div class="nav-inner-hamburger-container relative">
+                        <div class="nav-hamburger-minus top"></div>
+                        <div class="nav-hamburger-minus center"></div>
+                        <div class="nav-hamburger-minus bottom"></div>
+                    </div>
+                </div>
+
+                <div class="nav-hamburger-dropdown hidden">
+                    <div class="nav-hamburger-dropdown-list-items">
+                        <a href="">Features</a>
+                        <span class="dropdown-hov-dot"></span>
+                    </div>
+                    <div class="nav-hamburger-dropdown-list-items">
+                        <a href="">Style Guide</a>
+                        <span class="dropdown-hov-dot"></span>
+                    </div>
+                    <div class="nav-hamburger-dropdown-list-items">
+                        <a href="">Membership</a>
+                        <span class="dropdown-hov-dot"></span>
+                    </div>
+                    <div class="nav-hamburger-dropdown-list-items">
+                        <a href="">Theme</a>
+                        <span class="dropdown-hov-dot"></span>
+                    </div>
+                    <div class="nav-hamburger-dropdown-list-items">
+                        <a href="">Newsletter</a>
+                        <span class="dropdown-hov-dot"></span>
+                    </div>
+                    <div class="nav-hamburger-dropdown-list-items">
+                        <a href="">Authors</a>
+                        <span class="dropdown-hov-dot"></span>
+                    </div>
+                    <div class="nav-hamburger-dropdown-list-items">
+                        <a href="">Tags</a>
+                        <span class="dropdown-hov-dot"></span>
+                    </div>
+                    <div class="nav-hamburger-dropdown-list-items">
+                        <a href="">Contact</a>
+                        <span class="dropdown-hov-dot"></span>
+                    </div>
+                    <div class="nav-hamburger-dropdown-list-items">
+                        <a href="">Demos</a>
+                        <span class="dropdown-hov-dot"></span>
+                    </div>
+                    <div class="nav-hamburger-dropdown-list-items">
+                        <a href="./sign-in-page/signin.html">
+                            <button class="signin-btn">Sign in</button>
+                        </a>
+                    </div>
+                    <div class="nav-hamburger-dropdown-list-items">
+                        <a href="sign-up-page/signup.html"><button class="signup-btn">Sign up</button></a>
+                    </div>
+                    <div class="nav-hamburger-dropdown-list-items ommit-padding">
+                        <button class="search-large-btn">Search</button>
+                    </div>
+                </div>
+
+                <ul class="nav-list flex flex-row item-center">
+                    <li class="nav-list-items">
+                        <a href="">Features</a>
+                        <span class="hov-dot"></span>
+                    </li>
+                    <li class="nav-list-items">
+                        <a href="">Style Guide</a>
+                        <span class="hov-dot"></span>
+                    </li>
+                    <li class="nav-list-items">
+                        <a href="">Membership</a>
+                        <span class="hov-dot"></span>
+                    </li>
+                    <li class="nav-list-items">
+                        <a href="">Get Theme</a>
+                        <span class="hov-dot"></span>
+                    </li>
+                    <li class="nav-dots relative">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="height: 33px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="menu-dot">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                          </svg>
+                          
+                        <ul class="dropdown-wrapper absolute hidden">
+                            <li class="nav-list-items dot-nav-list">
+                                <a href="">Newsletter</a>
+                                <span class="hov-dropdown-dot"></span>
+                            </li>
+                            <li class="nav-list-items dot-nav-list">
+                                <a href="">Authors</a>
+                                <span class="hov-dropdown-dot"></span>
+                            </li>
+                            <li class="nav-list-items dot-nav-list">
+                                <a href="">Tags</a>
+                                <span class="hov-dropdown-dot"></span>
+                            </li>
+                            <li class="nav-list-items dot-nav-list">
+                                <a href="">Contact</a>
+                                <span class="hov-dropdown-dot"></span>
+                            </li>
+                            <li class="nav-list-items dot-nav-list">
+                                <a href="">Demos</a>
+                                <span class="hov-dropdown-dot"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-login-panel">
+                        <a href="sign-in-page/signin.html">
+                            <button class="signin-btn">Sign in</button>
+                        </a>
+                        <button class="signup-btn">Sign up</button>
+                    </li>
+                    <li class="nav-list-items search-open">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3.5" stroke="currentColor" class="search-btn">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                          </svg>                          
+                    </li>
+                </ul>
+            </div>
+            <div class="blog-description">Thoughts, stories and ideas</div>
+        </header>
+    </div>
+
+
+    <div class="search-section flex flex-row relative">
+        <div class="search-close">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3.5" stroke="currentColor" class="close-btn-slide">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+              </svg>   
+        </div>
+        <div class="search-img">    
+        </div>
+        <div class="search-right-section flex flex-col">
+            <div class="search-content">
+                <form action="" class="search-form flex flex-wrap">
+                <input type="text" placeholder="Type your keywords...">
+                </form>
+                <div class="search-chars"><p>PLEASE ENTER AT LEAST 3 CHARACTERS</p></div>
+                <div class="search-suggestions flex flex-wrap">
+                    <div class="search-suggestions-inner tags">
+                        <h3>May we suggest a tag?</h3>
+                        <a href=""><button>STORY</button></a>
+                        <a href=""><button>PEOPLE</button></a>
+                        <a href=""><button>EDUCATION</button></a>
+                        <a href=""><button>JOURNEY</button></a>
+                        <a href=""><button>ARCHITECTURE</button></a>
+                        <a href=""><button>LIFESTYLE</button></a>
+                        <a href=""><button>NATURE</button></a>
+                        <a href=""><button>DESIGN</button></a>
+                        <a href=""><button>CULTURE</button></a>
+                    </div>
+                    <div class="search-suggestions-inner author">
+                        <h3>May we suggest an author?</h3>
+                        <a href=""><button>PATRICIA JENKINS</button></a>
+                        <a href=""><button>JAMES BRYANT</button></a>
+                        <a href=""><button>MAGARET ROBETSON</button></a>
+                        <a href=""><button>JANET ROBETSON</button></a>
+                        <a href=""><button>SEAN HAMILTON</button></a>
+                        <a href=""><button>MARCOS DURAN</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="search-footer">
+                <a href="">Nurui.</a>
+                <span>Thoughts, stories and ideas</span>
+            </div>
+        </div>
+    </div>
+
+
+
+<div style="position: relative; width: 100%; height: max-content; overflow-x: hidden;" id="scroll-container">
+
+
+
+    <div class="right-arrow absolute">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"  class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+    </svg> -->
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3.0" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+    </svg>      
+    </div>
+
+
+
+
+    <div style="width: max-content; height: max-content; display: flex; align-items: center;" >
+
+        <div style="width: 100vw;" class="header-slider-container" id="first-slide">
+            <div class="featured-image"></div>
+            <div class="featured-contet-wrapper flex flex-wrap">
+                <div class="header-img-wrapper"></div>
+                <div class="featured-contet">
+                    <span class="featured-label">featured</span>
+                    <h2>I'm passionate about, the tradition of it,cooking it, sharing it
+                        <span class="featured-dot"></span>
+                    </h2>
+                    <div class="authors-header">
+                        <p>by <a href="">sean hamilton</a>, <a href="">patricia jenkins</a>, <a href="">james bryant</a> 6 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div style="width: 100vw;" class="header-slider-container">
+            <!-- <div class="darkend-box"></div> -->
+            <div class="featured-image" style="background-image: url(https://images.unsplash.com/photo-1520032484190-e5ef81d87978?ixlib=rb-1.2.1&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ); background-position: top; background-size: contain;"></div>
+            <div class="featured-contet-wrapper flex flex-wrap">
+                <div class="header-img-wrapper"></div>
+                <div class="featured-contet">
+                    <span class="featured-label">featured</span>
+                    <h2>I think it's the responsibility of a designer to try to break rules and barriers
+                        <span class="featured-dot"></span>
+                    </h2>
+                    <div class="authors">
+                        <p>by <a href="">sean hamilton</a>, <a href="">patricia jenkins</a>, <a href="">james bryant</a> 6 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div style="width: 100vw;" class="header-slider-container">
+            <div class="featured-image" style="background-image: url(https://images.unsplash.com/photo-1520032484190-e5ef81d87978?ixlib=rb-1.2.1&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ); background-position: center; background-size: cover;"></div>
+            <div class="featured-contet-wrapper flex flex-wrap">
+                <div class="header-img-wrapper"></div>
+                <div class="featured-contet">
+                    <span class="featured-label">featured</span>
+                    <h2>I think it's the responsibility of a designer to try to break rules and barriers
+                        <span class="featured-dot"></span>
+                    </h2>
+                    <div class="authors">
+                        <p>by <a href="">sean hamilton</a>, <a href="">patricia jenkins</a>, <a href="">james bryant</a> 6 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="blog-section-wrapper">
+    <div class="blog-section-inner-wrapper flex flex-wrap">
+        <a href="blog page/index.html" style="text-decoration: none !important;">
+        <div class="item-blog-section">
+            <div class="inner-blog-section">
+                <h2>The future of architecture is culture</h2>
+                <div class="author-blog-section"><p>by <a href="">patricia jenkins </a>6 years ago</p></div>
+                <a href="" class="link-cat">STORY</a>
+                <span>Paid-members</span>
+            </div>
+        </div>
+        </a>
+
+        <a href="blog page/index.html" style="text-decoration: none !important;"><div class="item-blog-section large-section">
+            <div class="inner-blog-section large-inner-section relative">
+                <div class="dulled-wrapper absolute"></div>
+                <h2>I'm passionate about food, the tradition of it, cooking it, sharing it</h2>
+                <div class="author-blog-section"><p>by <a href="">Sean Hamilton </a>6 years ago</p></div>
+                <a href="" class="link-cat">LIFESTYLE</a>
+                <span>Paid-members</span>
+            </div>
+        </div>
+    </a>
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;">
+        <div class="item-blog-section light-box">
+            <div class="inner-blog-section light-inner-box">
+                <h2 class="color-black">Architecture belongs to culture, not to civilization</h2>
+                <div class="author-blog-section color-black"><p class="color-black">by <a href="" class="color-black">patricia jenkins </a>6 years ago</p></div>
+                <a href="" class="link-cat color-black">PEOPLE</a>
+            </div>
+        </div>
+    </a>
+
+
+    <a href="blog page/index.html" style="text-decoration: none !important;">
+        <div class="item-blog-section">
+            <div class="inner-blog-section" style="background-image: url(https://images.unsplash.com/photo-1524502974494-abe9b22351c5?ixlib=rb-0.3.5&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=99d928cca1254d88d37a9f2f1642c0d5) !important; height: 470px; background-size: cover;">
+                <div class="dulled-wrapper absolute" style="z-index: -999;"></div>
+                <h2>Look at life with the eyes of a child</h2>
+                <div class="author-blog-section"><p>by <a href="">patricia jenkins </a>7 years ago</p></div>
+                <a href="" class="link-cat">PEOPLE</a>
+            </div>
+        </div>
+    </a>
+
+
+
+    <a href="blog page/index.html" style="text-decoration: none !important;">
+        <div class="item-blog-section">
+            <div class="inner-blog-section" style="background-image: url(https://images.unsplash.com/photo-1520032484190-e5ef81d87978?ixlib=rb-1.2.1&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ); background-size: cover;">
+                <div class="dulled-wrapper absolute" style="z-index: -999;"></div>
+                <h2>I think it's the responsibility of a designer to try to break rules and barriers</h2>
+                <div class="author-blog-section"><p>by <a href="">Janet Robetson </a> and others 7 years ago</p></div>
+                <a href="" class="link-cat">DESIGN</a>
+            </div>
+        </div>
+        
+    </a>
+
+
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;">
+        <div class="item-blog-section">
+            <div class="inner-blog-section" style="background-image: url(https://images.unsplash.com/photo-1515106426117-7483c8b91e9b?ixlib=rb-0.3.5&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e7f2a64b9c3918b1714161e88bb1d00c); background-size: cover ;">
+                <div class="dulled-wrapper absolute" style="z-index: -999;"></div>
+                <h2>Every day, in every city and town across the country</h2>
+                <div class="author-blog-section"><p>by <a href="">patricia jenkins </a>6 years ago</p></div>
+                <a href="" class="link-cat">EDUCATION</a>
+            </div>
+        </div>
+        
+    </a>
+
+
+
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;">
+        <div class="item-blog-section">
+            <div class="inner-blog-section" style="background-image: linear-gradient(0deg,#f857a6,#ff5858);">
+                <h2>Education is the transmission of civilization</h2>
+                <div class="author-blog-section"><p>by <a href="">patricia jenkins </a>6 years ago</p></div>
+                <a href="" class="link-cat">EDUCATION</a>
+            </div>
+        </div>
+        </a>
+
+
+
+
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;">
+        <div class="item-blog-section">
+            <div class="inner-blog-section" style="background-image: url(https://images.unsplash.com/photo-1518382473172-c5b406fe7efd?ixlib=rb-0.3.5&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=598e5f569f9994edf8ccc9b9b4903e51); background-size: cover; background-position: center;">
+                <div class="dulled-wrapper absolute" style="z-index: -999;"></div>
+                <h2>Pop culture is a reflection</h2>
+                <div class="author-blog-section"><p>by <a href="">Marcus Duran </a>6 years ago</p></div>
+                <a href="" class="link-cat">CULTURE</a>
+            </div>
+        </div>
+        
+    </a>
+
+
+
+
+
+<!-- no display mobile -->
+        <a href="blog page/index.html" style="text-decoration: none !important;">
+        <div class="item-blog-section large-section" id="no-display">
+            <div class="inner-blog-section large-inner-section relative" style="background-image: url(https://images.unsplash.com/photo-1512414584153-b9a3e3484950?ixlib=rb-0.3.5&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=f61f1a56fd7ab2e18df900258feb8b4c); background-size: cover; background-position: center;">
+                <div class="dulled-wrapper absolute"></div>
+                <h2>The creation of beauty is art</h2>
+                <div class="author-blog-section"><p>by <a href="">Margaret Robetson </a> & <a href=""> James Bryant </a>6 years ago</p></div>
+                <a href="" class="link-cat">story</a>
+                <span>Paid-members</span>
+            </div>
+        </div>
+        
+    </a>
+
+
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;" >
+        <div class="item-blog-section" id="no-display">
+            <div class="inner-blog-section" style="background-image: linear-gradient(0deg,#b53cff,#f952ff);">
+                <h2>You must grow like a tree</h2>
+                <div class="author-blog-section"><p>by <a href="">Margaret Robetson </a>6 years ago</p></div>
+                <a href="" class="link-cat">story</a>
+            </div>
+        </div>
+        </a>
+
+
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;" >
+        <div class="item-blog-section" id="no-display">
+            <div class="inner-blog-section" style="background-image: url(https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?ixlib=rb-0.3.5&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=b61e7417d121024853e9520c4f01817d); background-size: cover; background-position: center;">
+                <div class="dulled-wrapper absolute" style="z-index: -999; background-image: linear-gradient(20deg,#b53cff,#f952ff); opacity: 0.7;"></div>
+                <h2>The true beauty of music is that it connects people</h2>
+                <div class="author-blog-section"><p>by <a href="">Margaret Robertson </a>6 years ago</p></div>
+                <a href="" class="link-cat">PEOPLE</a>
+            </div>
+        </div>
+        
+    </a>
+
+
+
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;" >
+        <div class="item-blog-section large-section" id="no-display">
+            <div class="inner-blog-section large-inner-section relative" style="background-image: url(https://images.unsplash.com/photo-1462743708072-4ed3a4a860be?ixlib=rb-0.3.5&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=698d2be0211cdb09f926fa61252c2588); background-size: cover; background-position: center;">
+                <div class="dulled-wrapper absolute" style="background-color: black; opacity: 0.3;"></div>
+                <h2>I cannot look at modern buildings without thinking of historical ones</h2>
+                <div class="author-blog-section"><p>by <a href="">patricia Jekins </a>& <a href=""> Sean Hamilton </a>7 years ago</p></div>
+                <a href="" class="link-cat">ARCHITECTURE</a>
+                <span>Paid-members</span>
+            </div>
+        </div>
+        
+    </a>
+
+
+
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;" >
+        <div class="item-blog-section large-section" id="no-display">
+            <div class="inner-blog-section large-inner-section relative" style="background-image: url(https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?ixlib=rb-0.3.5&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=23b826e5742923a12082cbd2ef68a9e2); background-size: cover; background-position: center;">
+                <div class="dulled-wrapper absolute"></div>
+                <h2>Change is always happening</h2>
+                <div class="author-blog-section"><p>by <a href="">Janet Robertson </a>7 years ago</p></div>
+                <a href="" class="link-cat">CULTURE</a>
+                <span>Paid-members</span>
+            </div>
+        </div>
+    </a>
+
+
+
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;" >
+        <div class="item-blog-section" id="no-display">
+            <div class="inner-blog-section" style="background-image: linear-gradient(0deg,#f857a6,#ff5858);">
+                <h2>Everything has beauty, but not everyone sees it</h2>
+                <div class="author-blog-section"><p>by <a href="">Margaret Robertson </a>and others 7 years ago</p></div>
+                <a href="" class="link-cat">story</a>
+            </div>
+        </div>
+        </a>
+
+
+
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;" >
+        <div class="flex flex-row full-width" id="no-display">
+            <div class="item-blog-section large-section" style="flex: 1;">
+                <div class="inner-blog-section mid-inner-section relative" style="background-image: url(https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?ixlib=rb-0.3.5&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=67924289e72b8807d2de9d77121458e4); background-position: center; background-size: cover;">
+                    <div class="dulled-wrapper absolute" style="z-index: -999;"></div>
+                    <h2>The sky perfectly blended with the beautiful landscape</h2>
+                    <div class="author-blog-section"><p>by <a href="">Janet Robetson </a>8 years ago</p></div>
+                    <a href="" class="link-cat">NATURE</a>
+                    <span>Paid-members</span>
+                </div>
+            </div>
+        </a>
+    
+
+
+
+    
+            <a href="blog page/index.html" style="text-decoration: none !important;" >
+            <div class="item-blog-section large-section" style="flex: 1;" id="no-display">
+                <div class="inner-blog-section large-inner-section relative" style="background-image: url(https://images.unsplash.com/photo-1522230411790-91c3a622f42e?ixlib=rb-0.3.5&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=b412750fc34c8827c898cde59ea880b0); background-position: center; background-size: cover;">
+                    <div class="dulled-wrapper absolute" style="background-image: linear-gradient(20deg,#23bd38,#41eba9); opacity: 0.7;"></div>
+                    <h2>The journey of a thousand miles</h2>
+                    <div class="author-blog-section"><p>by <a href="">janet Robetson </a> & <a href=""> Patricia Jekins </a>8 years ago</p></div>
+                    <a href="" class="link-cat">JOURNEY</a>
+                    <span>Paid-members</span>
+                </div>
+            </div>
+        </a>
+        </div>
+
+<!-- jgug -->
+
+<a href="blog page/index.html" style="text-decoration: none !important;" >
+<div class="flex flex-wrap hidden" id="hidden-blogs" id="no-display">
+    <div class="item-blog-section reveal">
+        <div class="inner-blog-section">
+            <h2>When you are o  your way to home</h2>
+            <div class="author-blog-section"><p>by <a href="">Marcous Duran </a>8 years ago</p></div>
+            <a href="" class="link-cat">story</a>
+            <span>Paid-members</span>
+        </div>
+    </div>
+</a>
+
+
+
+    <a href="blog page/index.html" style="text-decoration: none !important;" >
+        <div class="item-blog-section reveal" id="no-display">
+            <div class="inner-blog-section" style="background-image: url(https://images.unsplash.com/photo-1517236791830-1351cae2cda3?ixlib=rb-0.3.5&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=54fe9638b4e1cfde87ef760a2ead7fd9); background-size: cover; background-position: center;">
+                <div class="dulled-wrapper absolute" style="z-index: -999;"></div>
+                <h2>Architecture is a visual art, and the buildings speak for themselves</h2>
+                <div class="author-blog-section"><p>by <a href="">Sean Hamilton </a> 8 years ago</p></div>
+                <a href="" class="link-cat">ARCHITECTURE</a>
+            </div>
+        </div>
+    </a>
+
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;" >
+        <div class="item-blog-section reveal" id="no-display">
+            <div class="inner-blog-section" style="background-image: url(https://images.unsplash.com/photo-1480796927426-f609979314bd?ixlib=rb-1.2.1&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ); background-size: cover ; background-position: center;">
+                <div class="dulled-wrapper absolute" style="z-index: -999;"></div>
+                <h2>I love japan, and tikyo is my favourite city</h2>
+                <div class="author-blog-section"><p>by <a href="">James Bryant </a>8 years ago</p></div>
+                <a href="" class="link-cat">story</a>
+            </div>
+        </div>
+    </a>
+
+
+
+
+        <a href="blog page/index.html" style="text-decoration: none !important;" >
+        <div class="flex flex-row full-width" id="no-display">
+            <div class="item-blog-section reveal">
+                <div class="inner-blog-section" style="background-image: linear-gradient(0deg,#327ae7,#6bd0ff);">
+                    <h2>A mind cannot be independent of culture</h2>
+                    <div class="author-blog-section"><p>by <a href="">Margaret Robertson </a>8 years ago</p></div>
+                    <a href="" class="link-cat">EDUCATION</a>
+                </div>
+            </div>
+        </a>
+    
+    
+
+
+            <a href="blog page/index.html" style="text-decoration: none !important;" >
+            <div class="item-blog-section reveal" id="no-display">
+                <div class="inner-blog-section" style="background-image: linear-gradient(0deg,#ffb040,#ffd62e);">
+                    <h2>You have to fight to reach your dream</h2>
+                    <div class="author-blog-section"><p>by <a href="">James jBryant </a>& <a href="">Janet Robertson</a>8 years ago</p></div>
+                    <a href="" class="link-cat">story</a>
+                </div>
+            </div>
+            </a>
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+
+<div class="load-more-wrapper">
+    <div class="load-more"></div>
+</div>
+
+
+<div class="subscribe-section-wrapper">
+    <div class="subscribe-section-inner-wrapper">
+        <div class="subscribe-form">
+            <h3>Join our occasional newsletter</h3>
+            <div class="subscribe-description flex flex-row">
+                <p>Start Your day with Nurui</p>
+                <div class="cursor"></div>
+            </div>
+            <div class="flex flex-col">
+                <input type="text" placeholder="Your email adress">
+                <div>
+                    <button class="sub-btn">Subscribe</button>
+                    <p class="processing hidden">PROCESSING...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-section">
+    <div class="footer-nav-section flex flex-row">
+        <div class="footer-nav">
+            <div class="footer-logo flex">
+                <img src="	https://nurui.fueko.net/content/images/2018/12/nurui.svg" alt="">
+            </div>
+
+            
+            <ul class="footer-nav-lists flex flex-row">
+                <li class="footer-nav-list-items"><a href="">Features</a></li>
+                <li class="footer-nav-list-items"><a href="">Style guide</a></li>
+                <li class="footer-nav-list-items"><a href="">Contact</a></li>
+                <li class="footer-nav-list-items"><a href="">Get Theme</a></li>
+            </ul>
+        </div>
+        <div class="footer-social-links flex flex-row">
+            <a href="">
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/twitter--v1.png" alt="twitter--v1"/>
+            </a>
+
+            <a href="">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/vimeo.png" alt="vimeo"/>
+            </a>
+
+            <a href="">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/youtube-play.png" alt="youtube-play"/>
+            </a>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <p>© 2024 <a href=""> Nurui</a>. All Right Reserved. Published with <a href=""> Ghost</a> & <a href=""> Nurui</a>.</p>
+    </div>
+</footer>
+</body>
+</html>
